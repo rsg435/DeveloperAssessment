@@ -1,0 +1,246 @@
+[
+	{
+		"Id": 1,
+		"FirstName": "Alice",
+		"LastName": "Smith",
+		"Email": "alice.smith@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 1,
+				"ProductName": "Mechanical Keyboard",
+				"Quantity": 1,
+				"UnitPrice": 120.00,
+				"TimeStamp": "2025-11-01T10:15:00"
+			},
+			{
+				"Id": 2,
+				"ProductName": "Gaming Mouse",
+				"Quantity": 2,
+				"UnitPrice": 45.50,
+				"TimeStamp": "2025-11-02T14:20:00"
+			},
+			{
+				"Id": 3,
+				"ProductName": "Mouse Pad",
+				"Quantity": 1,
+				"UnitPrice": 15.00,
+				"TimeStamp": "2025-11-02T14:25:00"
+			}
+		]
+	},
+	{
+		"Id": 2,
+		"FirstName": "Bob",
+		"LastName": "Johnson",
+		"Email": "bob.johnson@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 4,
+				"ProductName": "27-inch Monitor",
+				"Quantity": 1,
+				"UnitPrice": 300.00,
+				"TimeStamp": "2025-10-20T09:30:00"
+			},
+			{
+				"Id": 5,
+				"ProductName": "USB-C Dock",
+				"Quantity": 1,
+				"UnitPrice": 150.00,
+				"TimeStamp": "2025-10-21T11:45:00"
+			}
+		]
+	},
+	{
+		"Id": 3,
+		"FirstName": "Charlie",
+		"LastName": "Brown",
+		"Email": "charlie.brown@example.com",
+		"Status": "suspended",
+		"Orders": [
+			{
+				"Id": 6,
+				"ProductName": "Laptop Stand",
+				"Quantity": 1,
+				"UnitPrice": 35.00,
+				"TimeStamp": "2025-09-10T12:10:00"
+			}
+		]
+	},
+	{
+		"Id": 4,
+		"FirstName": "Diana",
+		"LastName": "Evans",
+		"Email": "diana.evans@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 7,
+				"ProductName": "Noise Cancelling Headphones",
+				"Quantity": 1,
+				"UnitPrice": 220.00,
+				"TimeStamp": "2025-11-05T16:00:00"
+			},
+			{
+				"Id": 8,
+				"ProductName": "Webcam",
+				"Quantity": 1,
+				"UnitPrice": 80.00,
+				"TimeStamp": "2025-11-05T16:10:00"
+			},
+			{
+				"Id": 9,
+				"ProductName": "Ring Light",
+				"Quantity": 1,
+				"UnitPrice": 40.00,
+				"TimeStamp": "2025-11-05T16:15:00"
+			}
+		]
+	},
+	{
+		"Id": 5,
+		"FirstName": "Ethan",
+		"LastName": "Taylor",
+		"Email": "ethan.taylor@example.com",
+		"Status": "archived",
+		"Orders": [
+			{
+				"Id": 10,
+				"ProductName": "Wireless Keyboard",
+				"Quantity": 1,
+				"UnitPrice": 60.00,
+				"TimeStamp": "2025-08-15T10:00:00"
+			}
+		]
+	},
+	{
+		"Id": 6,
+		"FirstName": "Maria",
+		"LastName": "Garcia",
+		"Email": "maria.garcia@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 11,
+				"ProductName": "External SSD 1TB",
+				"Quantity": 2,
+				"UnitPrice": 110.00,
+				"TimeStamp": "2025-11-10T13:00:00"
+			},
+			{
+				"Id": 12,
+				"ProductName": "USB Hub",
+				"Quantity": 1,
+				"UnitPrice": 25.00,
+				"TimeStamp": "2025-11-10T13:10:00"
+			}
+		]
+	},
+	{
+		"Id": 7,
+		"FirstName": "Hiroshi",
+		"LastName": "Tanaka",
+		"Email": "hiroshi.tanaka@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 13,
+				"ProductName": "Office Chair",
+				"Quantity": 1,
+				"UnitPrice": 350.00,
+				"TimeStamp": "2025-10-01T09:00:00"
+			},
+			{
+				"Id": 14,
+				"ProductName": "Standing Desk",
+				"Quantity": 1,
+				"UnitPrice": 500.00,
+				"TimeStamp": "2025-10-02T10:00:00"
+			}
+		]
+	},
+	{
+		"Id": 8,
+		"FirstName": "Hannah",
+		"LastName": "Clark",
+		"Email": "hannah.clark@example.com",
+		"Status": "suspended",
+		"Orders": [
+			{
+				"Id": 15,
+				"ProductName": "Desk Lamp",
+				"Quantity": 2,
+				"UnitPrice": 40.00,
+				"TimeStamp": "2025-09-22T18:30:00"
+			}
+		]
+	},
+	{
+		"Id": 9,
+		"FirstName": "Ian",
+		"LastName": "Lewis",
+		"Email": "ian.lewis@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 16,
+				"ProductName": "Bluetooth Speaker",
+				"Quantity": 1,
+				"UnitPrice": 75.00,
+				"TimeStamp": "2025-11-08T20:00:00"
+			},
+			{
+				"Id": 17,
+				"ProductName": "Smart Plug",
+				"Quantity": 3,
+				"UnitPrice": 18.00,
+				"TimeStamp": "2025-11-08T20:05:00"
+			},
+			{
+				"Id": 18,
+				"ProductName": "Smart Bulb",
+				"Quantity": 2,
+				"UnitPrice": 22.00,
+				"TimeStamp": "2025-11-08T20:10:00"
+			}
+		]
+	},
+	{
+		"Id": 10,
+		"FirstName": "Dev",
+		"LastName": "Shah",
+		"Email": "dev.shah@example.com",
+		"Status": "active",
+		"Orders": [
+			{
+				"Id": 19,
+				"ProductName": "Graphics Tablet",
+				"Quantity": 1,
+				"UnitPrice": 200.00,
+				"TimeStamp": "2025-10-18T14:00:00"
+			},
+			{
+				"Id": 20,
+				"ProductName": "Stylus Pen",
+				"Quantity": 1,
+				"UnitPrice": 50.00,
+				"TimeStamp": "2025-10-18T14:05:00"
+			},
+			{
+				"Id": 21,
+				"ProductName": "Sketch Pad",
+				"Quantity": 2,
+				"UnitPrice": 12.00,
+				"TimeStamp": "2025-10-18T14:10:00"
+			},
+			{
+				"Id": 22,
+				"ProductName": "Drawing Glove",
+				"Quantity": 1,
+				"UnitPrice": 9.00,
+				"TimeStamp": "2025-10-18T14:15:00"
+			}
+		]
+	}
+]
