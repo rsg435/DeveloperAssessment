@@ -6,7 +6,8 @@
 		public required string ProductName { get; set; }
 		public int Quantity { get; set; }
 		public decimal UnitPrice { get; set; }
-		public required Customer Customer { get; set; }
+		public int CustomerId { get; set; }
+		public Customer? Customer { get; set; }
 		public DateTime TimeStamp { get; set; }
 	}
 }
