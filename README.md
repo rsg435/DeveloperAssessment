@@ -32,13 +32,13 @@ The database setup script is found in the DatabaseSetup project. This is a C# co
 1. Load the sample dataset from dataset.json.
 1. Insert the sample Customers and Orders.
 
-To run the script, enter the command `dotnet --project DatabaseSetup`.
+To run the script, enter the command `dotnet run --project DatabaseSetup`.
 
 If desired, the database file can then be opened in DB Browser and the data queried.
 
 ### Running the API
 
-The API project consists of NET Minimal API. To run this, enter the command `dotnet --project API`
+The API project consists of NET Minimal API. To run this, enter the command `dotnet run --project API`
 
 Then, open a browser window and enter the localhost URL provided by the console (e.g. http://localhost:5000/).
 
@@ -64,6 +64,10 @@ The database setup script is found in the ETLApp project. This is a C# console a
 1. Query the database for active customers and their orders
 1. Transform the data
 1. Export the results to a CSV file
+
+To run the script, enter the command `dotnet run --project ETLApp`.
+
+This application could easily be run on a schedule by publishing to an executable file, and then using the Windows Task Scheduler (for example) to run it.
 
 ## Choices and reasoning
 
