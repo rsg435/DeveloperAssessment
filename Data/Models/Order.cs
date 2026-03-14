@@ -1,4 +1,6 @@
-﻿namespace Data.Models
+﻿using System.Text.Json.Serialization;
+
+namespace Data.Models
 {
 	public class Order
 	{
@@ -7,7 +9,9 @@
 		public int Quantity { get; set; }
 		public decimal UnitPrice { get; set; }
 		public int CustomerId { get; set; }
-		public Customer? Customer { get; set; }
 		public DateTime TimeStamp { get; set; }
+		[JsonIgnore]
+		public Customer? Customer { get; set; }
+
 	}
 }

@@ -1,13 +1,29 @@
 ﻿using Data;
+using Data.Helpers;
 using Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 
 Console.WriteLine("Creating SQLite database and tables...");
 
+//set up database connection
+var path = PathHelper.GetLocalAppDataPath();
+var databasePath = Path.Join(path, "mydatabase.db");
+
+var options = new DbContextOptionsBuilder<AppDbContext>()
+	.UseSqlite($"Data Source={databasePath}")
+	.Options;
+
 //Create database if it doesn't exist
-using (var context = new AppDbContext())
+using (var context = new AppDbContext(options))
 {
-	var message = context.Database.EnsureCreated() ? "Database created successfully." : "Database already exists."; 
+	bool created = context.Database.EnsureCreated();
+
+	//open the folder the database is in
+	PathHelper.OpenFolder(path);
+
+	var message = created ? "Database created successfully." : "Database already exists.";
+
 	Console.WriteLine(message);
 
 	Console.WriteLine("Adding customer and order data...");
@@ -19,7 +35,12 @@ using (var context = new AppDbContext())
 		return;
 	}
 
-	var json = File.ReadAllText("../../../../dataset.json"); //extract data from JSON file
+	var filePath = Path.Combine(
+	AppContext.BaseDirectory,
+	"Data",
+	"dataset.json");
+
+	var json = File.ReadAllText(filePath); //extract data from JSON file
 
 	var customers = JsonSerializer.Deserialize<List<Customer>>(json)!; //deserialise data into Customer objects
 
