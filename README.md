@@ -76,7 +76,7 @@ I chose to build the assignment using C# as I am currently a .NET developer and 
 Other choices I made included:
 
 ### Dataset
-I created the dataset in a separate JSON file, as JSON maps cleanly to data models using .NET's JSON serialiser.
+I created the dataset in a separate JSON file, as JSON maps cleanly to C# models using .NET's JSON serialiser.
 
 ### Database
 
@@ -92,10 +92,10 @@ I installed the Entity Framework Core library as an Object-Relational Mapper, re
 
 ## What I would improve
 
-I deliberately kept the solution very lightweight due to time constraints. However, given more time or in a production scenario, I would:
+I deliberately kept the solution very lightweight due to time constraints and for ease of understanding. However, given more time or in a production scenario, I would:
 
 1. Improve error handling by using specific exception types, adding a greater number of defensive checks, and installing a logging framework
-1. Replace the SQLite database with a more robust SQL Server database hosted on a separate DB server.
+1. Replace the SQLite database with a more robust SQL Server database hosted on a separate DB server
 1. Move the database connection string into a separate configuration file
 1. Implement a data access layer with repository pattern for database interactions
 1. Implement a service layer for business logic
