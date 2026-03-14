@@ -4,8 +4,8 @@
 
 To run the application and view the database you will need to install:
 
-.NET 8.0 SDK : https://dotnet.microsoft.com/en-us/download/dotnet/8.0
-DB Browser (or equivalent SQLite database viewer) : https://sqlitebrowser.org/dl/
+* .NET 8.0 SDK : https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+* DB Browser (or equivalent SQLite database viewer) : https://sqlitebrowser.org/dl/
 
 ## Database and CSV location
 
