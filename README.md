@@ -11,9 +11,9 @@ To run the application and view the database you will need to install:
 
 When the DatabaseSetup console application is run, it will create the database file `mydatabase.db` (if it doesn't already exist) in one of the following locations depending on your OS:
 
-Windows: `C:\Users\<username>\AppData\Local\mydatabase.db`
-MacOS: `/Users/<username>/Library/Application Support/mydatabase.db` (in Finder, Go → Go to Folder ~/Library/Application Support)
-Linux: `/home/<username>/.local/share/mydatabase.db`
+* Windows: `C:\Users\<username>\AppData\Local\mydatabase.db`
+* MacOS: `/Users/<username>/Library/Application Support/mydatabase.db` (in Finder, Go → Go to Folder ~/Library/Application Support)
+* Linux: `/home/<username>/.local/share/mydatabase.db`
 
 Similarly, the ETLApp application will create orders.csv in the same folder.
 
